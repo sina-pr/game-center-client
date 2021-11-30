@@ -1,0 +1,29 @@
+.message-wrapper {
+  height: 120px;
+  padding: 0px 22px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar-x {
+  display: none;
+}
+::-webkit-scrollbar {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d1b536ce;
+  border-radius: 5px;
+}
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0 0 0;
+}
+.input {
+  flex: 0.7;
+  border-radius: 5px;
+  padding: 8px 5px;
+  border: none;
+}
