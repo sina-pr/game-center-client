@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { useParams } from 'react-router';
-import { useEffect, useState } from 'react/cjs/react.development';
+import { useEffect, useState } from 'react';
 import { SocketContext } from '../context/context';
 import GlassButton from './GlassButton';
 import GlassContainer from './GlassContainer';
